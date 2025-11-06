@@ -1,6 +1,6 @@
 # Microsoft Word Intranet MOTW Bypass
 
-# New Unpatched Intranet Mark-of-the-Web Bypass
+### New Unpatched Intranet Mark-of-the-Web Bypass
 By [Ruben Enkaoua](https://x.com/rubenlabs)
 <br>
 <br>

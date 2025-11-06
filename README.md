@@ -21,6 +21,8 @@ The `.dotm` template file comes from an untrusted location (It can be a server i
 
 **However**, if a `.docx` document is querying a remote `.dotm` template using a **nonexistent** server name, it will issue a LLMNR request. By poisoning that request, the client can retrieve the template from an attacker controlled server, making the template trusted and restoring the `Enable Macros` button. The LLMNR poisoning causes the server to be considered trusted, allowing an Intranet Mark-of-the-Web bypass and enabling phishing to trick victims into executing VBScript code.
 
+Note: Exploitable even if the `.docx` document is downloaded from Internet.
+
 The Microsoft Security Response Center did not consider this issue to be a vulnerability.<br><br>
 
 
